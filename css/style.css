@@ -610,7 +610,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 70%;
-    background: #007bff;
+    background: rgb(81, 165, 255);
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
@@ -700,7 +700,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .image-absolute-box .box {
     position: absolute;
-    background: #007bff;
+    background: rgb(81, 165, 255);
     padding: 30px;
     max-width: 300px;
     top: -20%;
