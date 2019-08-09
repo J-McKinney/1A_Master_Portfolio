@@ -1,7 +1,3 @@
-// Embedded icons from Open Iconic.
-// Released under MIT and copyright 2014 Waybury.
-// https://useiconic.com/open
-
 
 // Checkboxes and radios
 //
@@ -92,8 +88,6 @@
 
 
 // Checkboxes
-//
-// Tweak just a few things for checkboxes.
 
 .custom-checkbox {
   .custom-control-label::before {
@@ -130,8 +124,6 @@
 }
 
 // Radios
-//
-// Tweak just a few things for radios.
 
 .custom-radio {
   .custom-control-label::before {
@@ -156,10 +148,6 @@
 
 
 // Select
-//
-// Replaces the browser default select with a custom one, mostly pulled from
-// https://primer.github.io/.
-//
 
 .custom-select {
   display: inline-block;
@@ -194,7 +182,6 @@
       // suppress the default white text on blue background highlight given to
       // the selected option text when the (still closed) <select> receives focus
       // in IE and (under certain conditions) Edge.
-      // See https://github.com/twbs/bootstrap/issues/19398.
       color: $input-color;
       background-color: $input-bg;
     }
@@ -351,7 +338,7 @@
   &::-webkit-slider-runnable-track {
     width: $custom-range-track-width;
     height: $custom-range-track-height;
-    color: transparent; // Why?
+    color: transparent; 
     cursor: $custom-range-track-cursor;
     background-color: $custom-range-track-bg;
     border-color: transparent;
@@ -380,7 +367,7 @@
     color: transparent;
     cursor: $custom-range-track-cursor;
     background-color: $custom-range-track-bg;
-    border-color: transparent; // Firefox specific?
+    border-color: transparent; 
     @include border-radius($custom-range-track-border-radius);
     @include box-shadow($custom-range-track-box-shadow);
   }
@@ -420,7 +407,7 @@
   }
 
   &::-ms-fill-upper {
-    margin-right: 15px; // arbitrary?
+    margin-right: 15px; 
     background-color: $custom-range-track-bg;
     @include border-radius($custom-range-track-border-radius);
   }
