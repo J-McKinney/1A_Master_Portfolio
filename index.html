@@ -510,34 +510,6 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
 
-    <script>
-        $(document).ready(function () {
-
-            const settings = {
-                "async": true,
-            "crossDomain": true,
-            "url": "https://express.etrade.com/phx/rtao/init/bank",
-            //"url": "https://github.com/Rob--W/cors-anywhere/https://express.etrade.com/phx/rtao/init/bank",
-            //"url": "https://cors-anywhere.herokuapp.com/https://express.etrade.com/phx/rtao/init/bank",
-            //"url": "https://cors.bridged.cc/https://express.etrade.com/phx/rtao/init/bank",
-            //"url": "https://corsanywhere.herokuapp.com/https://express.etrade.com/phx/rtao/init/bank",
-            "method": "POST",
-            "headers": {
-              "Accept": "*/*",
-              //"User-Agent": "Thunder Client (https://www.thunderclient.com)",
-              "Content-Type": "application/json"
-            },
-            "processData": false,
-            "data": "{\n  \"campaignCode\": \"5000\"\n}"
-        };
-        
-        $.ajax(settings).done(function (response) {
-            console.log(response);
-        });
-    });
-
-    </script>
-
 </body>
 
 </html>
