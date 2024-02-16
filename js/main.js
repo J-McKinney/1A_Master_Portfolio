@@ -6,24 +6,6 @@
 
 jQuery(document).ready(function($) {
 
-    const settings = {
-        "async": true,
-        "crossDomain": true,
-        // "url": "https://cors-anywhere.herokuapp.com/https://express.etrade.com/phx/rtao/init/bank",
-        // "url": "https://cors.bridged.cc/https://express.etrade.com/phx/rtao/init/bank",
-        "url": "https://corsanywhere.herokuapp.com/https://express.etrade.com/phx/rtao/init/bank",
-        "method": "POST",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "processData": false,
-        "data": "{\n  \"campaignCode\": \"5000\"\n}"
-      };
-      
-      $.ajax(settings).done(function (response) {
-        console.log("Response: " + response.campaign);
-      });
-
 	"use strict";
 
 	
