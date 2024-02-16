@@ -6,6 +6,24 @@
 
 jQuery(document).ready(function($) {
 
+    const settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://express.etrade.com/phx/rtao/init/bank",
+        "method": "POST",
+        "headers": {
+          "Accept": "*/*",
+          "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+          "Content-Type": "application/json"
+        },
+        "processData": false,
+        "data": "{\n  \"campaignCode\": \"5000\"\n}"
+      };
+      
+      $.ajax(settings).done(function (response) {
+        console.log("Response: " + response);
+      });
+
 	"use strict";
 
 	
